@@ -1,0 +1,620 @@
+html {
+    background-color: #d6ccbc;
+}
+
+.cursos {
+    
+}
+
+.titcont {
+    text-align: center;
+    
+    font-family: 'Abril Fatface', cursive;
+  
+}
+
+.imgder , .imgizq {
+    width: 30rem;
+}
+
+.titcurso {
+
+    
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+.cursoder, .cursoizq {
+
+    background-color: rgb(245, 242, 238);
+    border-radius: 0px;
+    width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+/*
+@media (min-width: 768px) {
+    .cursoizq{
+        display: grid;
+        grid-template-columns: 1fr ;
+        column-gap: 2rem;
+    }
+}
+*/
+
+
+.cursoder {
+
+    margin: 10% 5% 0% 15%;
+}
+
+.cursoizq {
+  
+    margin: 10% 5% 0% 5%;
+    
+}
+
+.cajacurso {
+    
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+}
+
+.divcont {
+
+    padding: 15%;
+
+}
+
+.img1 {
+
+    background-image: url(./img/curso1.jpg);
+    
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+margin-left: 25px;
+ 
+}
+
+.img2 {
+
+    background-image: url(./img/curso2.jpg);
+    
+background-repeat: no-repeat;
+background-position: left;
+background-size: cover;
+margin-right: 25px; 
+}
+
+.img3 {
+
+    background-image: url(./img/curso3.jpg);
+    
+background-repeat: no-repeat;
+background-position: right;
+background-size: cover;
+margin-left: 25px; 
+}
+
+.img4 {
+
+    background-image: url(./img/curso4.jpg);
+    
+background-repeat: no-repeat;
+background-position: left;
+background-size: cover;
+margin-right: 25px; 
+}
+
+
+.img1 {    
+background-position: right;
+}
+
+.img2  {
+ 
+background-position: left;   
+}
+
+.img1 , .img2 , .img3 , .img4 {
+    cursor: pointer;
+}
+
+
+
+.btninfo, .btnblog {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #5a360e, #e7ce9e);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+   }
+   
+   button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #00000066;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+
+
+   .blog {
+    
+
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    
+    
+
+    
+  display: flex;
+
+   }
+
+   .parblog , .parcursos {
+    /*
+    font-family: 'Croissant One', cursive;*/
+    text-align: center;
+    padding: 0% 20%;
+    font-size: 17px;
+    margin-top: 45px;
+   }
+
+   .divblog {
+
+    background-color: rgb(179, 142, 94);
+
+    width: 275px;
+    height: 400px;
+
+    border-radius: 0px;
+
+    
+margin: 50px 25px;
+padding: 30px;
+align-items: center;
+
+
+background-repeat: no-repeat;
+background-position: center;
+
+ 
+}
+
+.blog1 {
+    background-image: url(./img/blog1.jpg);
+}
+
+.blog2 {
+    background-image: url(./img/blog2.jpg);
+}
+
+.blog3{
+    background-image: url(./img/blog3.jpg);
+}
+
+.blog1 , .blog2 , .blog3 {
+    background-size: cover;
+}
+
+.titblog {
+    
+    font-family: 'Abril Fatface', cursive;
+
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.btnblog {
+}
+
+.titblog {
+    margin-top: 18rem;
+}
+/*
+margin: 50px 20px;
+
+/*nosostros*/
+
+.sobre-nosotros__imagen {
+
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+.sobre-nosotros__texto {
+}
+
+
+.secimgs {
+
+    background-color: chocolate;
+    /*
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente 
+    align-items: center;
+    */
+    margin-top: 8rem;
+    
+
+    
+}
+
+.imgsdiv {
+    background-color: #6e4727;
+    
+    display: flex;
+    justify-content: center;
+
+    
+align-items: center;
+
+
+background-repeat: no-repeat;
+background-position: center;
+
+
+}
+
+
+.imgs {
+    width: 20rem;
+    height: 20rem;
+    background-color: #eceae3;
+    /*
+    border: 2px solid #000;
+*/
+text-align: center;
+}
+
+
+.i2 {
+    background-image: url(./img/blog1.jpg);
+}
+
+.i4 {
+    background-image: url(./img/blog3.jpg);
+}
+
+.i6 {
+    background-image: url(./img/curso2.jpg);
+}
+
+
+.i2, .i4 , .i6{
+    background-size: cover;
+}
+
+.imgicon {
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.imgtexttit{
+    font-size: 15px;
+    margin:  3px;
+}
+
+.imgtext {
+
+    font-size: 8px;
+    margin: 0px 20px;
+}
+
+.btnnos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+
+/*contacto*/
+
+.contcontact {
+    
+    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-bg {
+
+    width: 100%;
+}
+
+.contacto-bg {
+    background-image: url(./img/contacto.jpg);
+    
+    width: 100%;
+    height: 99%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px 0px 40px 20%;
+    background-position: right;
+}
+
+
+.formulario {
+    background-color: var(--blanco);
+    
+    margin: 40px 40px 40px 0px;
+    width: 80%;
+    padding: 5rem;
+    
+    background-position: left;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+}
+.campo__field--textarea {
+    height: 20rem;
+}
+/**/
+
+.textu {
+
+    font-size: 25px;
+
+    
+}
+
+/*
+
+    
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Croissant One', cursive;
+
+    font-family: 'Satisfy', cursive;
+
+    font-family: 'Kaushan Script', cursive;
+    
+    font-family: 'PT Serif', serif;
+    font-family: 'Playfair Display', serif;
+
+
+*/
+
+/*cursos*/
+
+
+
+.cursoderprincipal  , .cursoizqprincipal{
+
+    
+    background-color: rgb(245, 242, 238);
+    border-radius: 0px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    
+    margin: 7% 5% 0% 12%;
+
+}
+
+.divcontprincipal {
+    
+    
+    width: 37rem;
+    margin-left: 10%;
+    margin-bottom: 5%; 
+
+}
+
+.textcont {
+    font-size: 1.2rem;
+}
+
+
+/*contacto*/
+
+.inputbox {
+    position: relative;
+    width: 35rem;
+  }
+  
+  .inputbox input {
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #23242a;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    margin-top: 10px;
+  }
+  
+  .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+    font-size: 1em;
+    color:  #6e4727;
+    letter-spacing: 00.05em;
+    transition: 0.5s;
+    pointer-events: none;
+  }
+  
+  .inputbox input:valid ~span,
+  .inputbox input:focus ~span {
+    color: rgb(179, 142, 94);
+    transform: translateX(-10px) translateY(-34px);
+    font-size: 0,75em;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(179, 142, 94);
+    border-radius: 4px;
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+  }
+  
+  .inputbox input:valid ~i,
+  .inputbox input:focus ~i {
+    height: 44px;
+  }
+
+
+
+
+  /*contact*/
+
+ .form {
+    margin: 2rem;
+ }
+
+  .form-container {
+    width: 53rem;
+    height: 50rem;
+    background: linear-gradient(#c6c0b4, #c0a07f) padding-box,
+                linear-gradient(145deg, transparent 35%,#6e4727, rgb(0, 0, 0)) border-box;
+    border: 4px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+  }
+  
+  .form-container button:active {
+    scale: 0.95;
+  }
+  
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6e4727;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  .form-container .form-group input {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: transparent;
+    border: 1px solid #414141;
+  }
+  
+  .form-container .form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 7px;
+    resize: none;
+    color: #000000;
+    height: 96px;
+    border: 2px solid rgb(179, 142, 94);
+    background-color: transparent;
+    font-family: inherit;
+    height: 15rem;
+  }
+  
+  .form-tactainer .form-group input::placeholder {
+    opacity: 0.5;
+  }
+  
+  .form-container .form-group input:focus {
+    outline: none;
+    border-color: #e81cff;
+  }
+  
+  .form-container .form-group textarea:focus {
+    outline: none;
+    border-color:rgb(179, 142, 94) ;
+    background-color: rgb(179, 142, 94);
+    height: 15rem;
+  }
+  
+  .form-container .form-submit-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: flex-start;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 40%;
+    background: #313131;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .form-container .form-submit-btn:hover {
+    background-color: #fff;
+    border-color: #fff;
+  }
+  
+  
+  
+  
